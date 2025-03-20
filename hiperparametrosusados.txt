@@ -1,0 +1,10 @@
+embedding_dim: Dimensión del embedding para la variable Country (rango: 4 a 50, paso: 2).
+num_layers: Número de capas ocultas en la red (rango: 1 a 4, paso: 1).
+activation_fn: Función de activación para las capas ocultas (relu, tanh, leaky_relu, elu).
+l2_reg: Regularización L2 para las capas densas (rango: 1e-5 a 1e-2, sampling logarítmico).
+use_batch_norm: Booleano para activar/desactivar Batch Normalization en las capas ocultas.
+units_layer_i (para cada capa i): Número de neuronas en cada capa oculta (rango: 32 a 256, paso: 32).
+dropout_layer_i (para cada capa i): Tasa de dropout en cada capa oculta (rango: 0.1 a 0.5, paso: 0.1).
+optimizer: Optimizador a utilizar (adam, rmsprop, sgd).
+learning_rate: Tasa de aprendizaje (rango: 1e-4 a 1e-2, sampling logarítmico).
+batch_size: Tamaño del batch para el entrenamiento (rango: 16 a 128, paso: 16).
